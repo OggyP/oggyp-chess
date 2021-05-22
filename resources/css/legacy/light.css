@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
+
+body {
+	margin: 0;
+	position: relative;
+	background-color: #FFFFFF;
+	min-height: 100vh;
+}
+ul {
+	list-style-type: none;
+}
+.page {
+	/*position: absolute;*/
+	margin: 0 20%;
+}
+h1 {
+	font-family: 'Spartan', sans-serif;
+	font-size: 110px;
+	text-align: center;
+	text-shadow: 5px 5px 5px #e0e0e0;
+	margin: 50px auto;
+	color: #404040;
+	min-width: fit-content;
+}
+.survey_title {
+	margin: 0;
+	padding-top: 2%;
+}
+h2 {
+	font-family: 'Spartan', sans serif;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #474b4f;
+	margin: 30px auto;
+	color: #6b6e70;
+	line-height: 1.5em;
+}
+h3 {
+	font-family: 'Spartan', sans serif;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 3px 3px 3px #61892F;
+	margin: 10px 20%;
+	color: #86C232;	
+}
+h4 {
+	font-family: 'Spartan', sans serif;
+	font-size: 35px;
+	text-align: left;
+	margin: 25px 25px;
+	color: lightgray;
+}
+a  { 
+	font-family: 'Spartan', sans serif;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 3px 3px 3px #61892F;
+	margin: 30px 0 0;
+	color: #86C232;	
+}
+a:hover {
+	color: #B0E8B3;
+	text-shadow: 3px 3px 3px #74C36E; 		
+}
+hr {
+	color: lightgray;
+}
+.icon {
+	text-align: center;
+	color:#979797;
+	font-size: 50px;
+}
+
+
+/*CSS for Navbar*/
+.navbar {
+	height: 125px;
+	width: 100%;
+	background: rgb(160, 160, 160);
+	background: linear-gradient(180deg, rgb(144, 144, 144) 0%, rgb(255, 255, 255) 65%);
+	top: 0;
+}
+
+.navbar a  {
+	float: left;
+	font-size: 25px;
+	color: #000000;
+	text-align: center;
+	margin: 0px;
+	padding: 25px;
+	text-decoration: none;
+	text-shadow: 0 0 0 #000000;
+	height: auto;
+}
+
+.navbar a:hover {
+	background-color: rgb(85, 85, 85);
+}
+.dropdown {
+	float: left;
+overflow: hidden; /* hide any excess */
+-webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
+}
+.dropdown .dropbtn {
+	cursor: pointer;
+	font-size: 25px;
+	border: none;
+	outline: none;
+	color: #000000;
+	padding: 25px;
+	background-color: inherit; /* take from its parent */
+	font-family: 'Spartan', sans-serif;
+	margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+	background-color: rgb(193, 193, 193);
+}
+
+.search_form {
+	width: 20%;
+	float: right;
+	font-size: 25px;
+	color: #000000;
+	text-align: center;
+	margin: 0 2% 0 0;
+	padding: 20px;
+	height: 2em;
+}
+
+#search_input {
+	width: 100%;
+	height: 70%;
+}
+.dropdown a {
+	float: none;
+	color: #000000;
+	padding: 12px 16px;
+	text-align: left;
+	display: block;
+	background-color: #b6b6b6;
+	min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* `text-shadow`, but for boxes! */
+z-index: 1; /* layer 1 (1 = lowest, 10 = highest) */
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+
+.error_warn {
+	margin-left: 5%;
+	color: red;
+	font-size: xx-large;
+	font-family: Spartan;
+}
+.error {
+	color: red;
+	font-size: xx-large;
+	font-family: Spartan;
+}
+img {
+	width: 20%;
+	position: fixed;
+	top: 10%;
+}
+img.king {
+	left: 2%;
+}
+img.king_dark {
+	right: 2%;
+}
+.chess_pieces {
+	position: fixed;
+}
+.content {
+	background-color: #d9d9d9;
+	width: 70%;
+	padding: 0 0 10% 0;
+	margin: 5% auto 4% auto;
+}
+.text_input {
+	width: 79%;
+	height: 20%;
+	margin: 0 auto 3% 10%;
+}
+
+.input_select {
+	width: 70%;
+	text-align: center;
+	font-family: Spartan;
+	color: white;
+	font-size: x-large;
+	margin: 2% auto;
+	color: #2C2F33;
+}
+input.submit {
+	font-size: 3em;
+	font-family: Spartan;
+	border: aquamarine solid 10px;
+	background-color: mediumaquamarine;
+	width: 80%;
+	height: 5%;
+	margin: 3% 0 5% 10%;
+	padding: 1em 0;
+}
+p.survey_out {
+	margin: 3% auto;
+	text-align: center;
+	width: 50%;
+	color: #2C2F33;
+	font-size: xx-large;
+	font-family: Spartan;
+}
+.results {
+	width: 90%;
+	color: black;
+	font-size: x-large;
+	margin-left: 5%;
+	font-family: Spartan;
+}
+#ID_result {
+	color: #86C232;
+	font-family: Spartan;
+}
+.content_result {
+	background-color: #ffffff;
+	width: 80%;
+	padding: 10px;
+	margin: 5% auto 4% auto;
+	box-shadow: 5px 5px 5px 0px #ffffff, inset 4px 4px 15px 0px #c9c9c9, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+#query_input {
+	width: 75%;
+}
+#query_submit {
+	width: 19%;
+
+}
+.search {
+	margin: 30px auto 0 auto;
+	width: 90%;
+	background-color: #ffffff;
+	color: white;
+}
+a {
+	color: darkblue;
+}
+
+
+

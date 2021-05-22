@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    font-family: 'Spartan';
+    font-size: 100px;
+    width: 100%;
+    margin: auto;
+    padding: 4% 0;
+    color: black;
+    background-color: crimson;
+    position: relative;
+    margin-top: 50px;
+}
+.border {
+    border: black 1px solid;
+}
+body {
+    /*background-image: url('checkerboard.png');*/
+    background: rgb(3,19,55);
+    background: linear-gradient(153deg, rgba(3,19,55,1) 0%, rgba(25,1,54,1) 52%, rgba(28,0,36,1) 100%);
+}
+img {
+    width: 20%;
+    position: fixed;
+    top: 10%;
+}
+img.king {
+    left: 2%;
+}
+img.king_dark {
+    right: 2%;
+}
+.chess_pieces {
+    position: fixed;
+}
+p{
+    padding: 39px;
+    color: antiquewhite;
+    font-family: Arial;
+    font-size: xx-large;
+    text-align: justify;
+    width: 75%;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    font-family: 'Spartan';
+    font-size: 85px;
+    width: 85%;
+    margin: auto;
+    color: black;
+    background-color: coral;
+    position: relative;
+    padding: 2% 0;
+}
+a {
+    color: aquamarine;
+}
+.text_content {
+    background-color: #333;
+    width: 50%;
+    margin: 0 auto 4% auto;
+}
+.error {
+    color: red;
+}

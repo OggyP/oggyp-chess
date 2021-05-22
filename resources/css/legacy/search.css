@@ -1,0 +1,119 @@
+body {
+    min-height: 100vh;
+    background-color: #222629;
+}
+
+h1 {
+	font-family: 'Spartan', sans-serif;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 5px 5px 5px #474B4F;
+	margin: 50px 200px 0;
+	color: white;
+}
+h2 {
+	font-family: 'Spartan', sans serif;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #474B4F;
+	margin: 0px 300px 0;
+	color: #6B6E70;
+	line-height: 1.5em;
+}
+.error_warn {
+    margin-left: 5%;
+    color: red;
+    font-size: xx-large;
+    font-family: Spartan;
+}
+.error {
+    color: red;
+    font-size: xx-large;
+    font-family: Spartan;
+}
+img {
+    width: 20%;
+    position: fixed;
+    top: 10%;
+}
+img.king {
+    left: 2%;
+}
+img.king_dark {
+    right: 2%;
+}
+.chess_pieces {
+    position: fixed;
+}
+
+.content {
+    background-color: #333;
+    width: 50%;
+    padding: 0 0 10% 0;
+    margin: 5% auto 4% auto;
+}
+.text_input {
+    width: 79%;
+    height: 20%;
+    margin: 0 auto 3% 10%;
+}
+
+.input_select {
+    width: 50%;
+    text-align: center;
+    font-family: Spartan;
+    color: white;
+    font-size: x-large;
+    margin: 2% auto;
+}
+input.submit {
+    font-size: 3em;
+    font-family: Spartan;
+    border: aquamarine solid 10px;
+    background-color: mediumaquamarine;
+    width: 80%;
+    height: 5%;
+    margin: 3% 0 5% 10%;
+    padding: 1em 0;
+}
+p.survey_out {
+    margin: 3% auto;
+    text-align: center;
+    width: 50%;
+    color: white;
+    font-size: xx-large;
+    font-family: Spartan;
+}
+.results {
+    width: 90%;
+    color: white;
+    font-size: x-large;
+    margin-left: 5%;
+    font-family: Spartan;
+}
+#ID_result {
+    color: #86C232;
+	font-family: Spartan;
+}
+.content_result {
+    background-color: #333;
+    width: 80%;
+    padding: 10px;
+    margin: 5% auto 4% auto;
+	box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+#query_input {
+    width: 75%;
+}
+#query_submit {
+    width: 19%;
+
+}
+.search {
+    margin: 30px auto 0 auto;
+    width: 90%;
+}
+a {
+    color: lightskyblue;
+}
+

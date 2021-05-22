@@ -1,0 +1,110 @@
+body {
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Spartan';
+    font-size: 100px;
+    width: 100%;
+    margin: auto;
+    padding: 4% 0;
+    color: black;
+    background-color: crimson;
+    position: relative;
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+    font-family: 'Spartan';
+    font-size: large;
+    width: 85%;
+    margin: 2% auto 0 auto;
+    color: black;
+    background-color: coral;
+    position: relative;
+    padding: 2% 0;
+}
+.error_warn {
+    margin-left: 5%;
+    color: red;
+    font-size: xx-large;
+    font-family: Arial;
+}
+.error {
+    color: red;
+    font-size: xx-large;
+    font-family: Arial;
+}
+img {
+    width: 20%;
+    position: fixed;
+    top: 10%;
+}
+img.king {
+    left: 2%;
+}
+img.king_dark {
+    right: 2%;
+}
+.chess_pieces {
+    position: fixed;
+}
+body {
+    background: rgb(3,19,55);
+    background: linear-gradient(153deg, rgba(3,19,55,1) 0%, rgba(25,1,54,1) 52%, rgba(28,0,36,1) 100%);
+}
+.content {
+    background-color: #333;
+    width: 50%;
+    padding: 0 0 10% 0;
+    margin: 5% auto 4% auto;
+}
+.text_input {
+    width: 79%;
+    height: 20%;
+    margin: 0 auto 3% 10%;
+}
+
+.input_select {
+    width: 50%;
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    font-size: x-large;
+    margin: 2% auto;
+}
+input.submit {
+    font-size: 3em;
+    font-family: Spartan;
+    border: aquamarine solid 10px;
+    background-color: mediumaquamarine;
+    width: 80%;
+    height: 5%;
+    margin: 3% 0 5% 10%;
+    padding: 1em 0;
+}
+p.survey_out {
+    margin: 3% auto;
+    text-align: center;
+    width: 50%;
+    color: white;
+    font-size: xx-large;
+    font-family: Arial;
+}
+.results {
+    width: 90%;
+    color: white;
+    font-size: x-large;
+    margin-left: 5%;
+    font-family: Arial;
+}
+#ID_result {
+    color: coral;
+}
+.content_result {
+    background-color: #333;
+    width: 80%;
+    padding: 0 0 10% 0;
+    margin: 5% auto 4% auto;
+}

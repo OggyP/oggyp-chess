@@ -1,0 +1,189 @@
+/*
+Search Bar CSS
+ */
+
+*, *::before, *::after { /* everything */
+    box-sizing: border-box; /* html the padding as part of the size */
+}
+
+.content {
+    right: 0; /* position 0px from the right of whatever it's in (it's the same idea for `top`, `left` and `bottom`) */
+    width: 50%;
+    position: relative; /* all `position: absolute` inside of the element with this class will be relative to this element */
+    display: inline-block; /* display like a piece of text in a paragraph (inline), but like a paragraph within a paragraph (inline-block) */
+    padding: 0.8em 0.5em 0;
+}
+
+.search {
+    border: 2px solid #61892F;
+    display: flex; /* use flexbox */
+    border-radius: 100px; /* curve the edges */
+    overflow: hidden; /* hide anything that doesn't fit within the border */
+    font-size: 1.25em;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    transition: width 450ms cubic-bezier(0.18, 0.89, 0.32, 1.28); /* add a transition for the width property lasting 450ms. `cubic-bezier()` makes it fancy */
+    padding: 3px;
+    right: 0;
+}
+
+.search__input {
+    color: #fff;
+    border: 0;
+    padding: .25em 1em;
+    flex-grow: 1; /* honestly, no idea */
+    outline: 0; /* no more outline L */
+    z-index: 2; /* layer 2 (1 is lowest, 10 is highest) */
+    position: absolute; /* take this out of the flow of things (i.e make it relative to its parent rather than the text it's in) */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    opacity: 0;
+    cursor: pointer; /* make the cursor a hand icon */
+}
+
+.search__submit {
+    font-size: 1.2rem;
+    margin-left: auto;
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 200ms ease-out; /* add a transition for the background property lasting 200 ms. `ease-out` means that it'll slow to a stop */
+    width: calc(50px - 10px);
+    height: calc(50px - 10px);
+    color: #333;
+}
+
+.search:focus-within { /* when something inside is in focus (e.g. :focus-within for a div with a paragraph inside will activate when clicking on the paragraph) */
+    width: 100%;
+    background-color: rgba(71,75,79,1);
+}
+
+.search__input {
+    opacity: 1;
+    z-index: initial; /* default layer */
+    cursor: initial; /* default cursor */
+    width: calc(100% - 50px);
+    height: 100%;
+}
+
+.search__submit {
+    background: #61892F;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.15); /* `text-shadow`, but for boxes! */
+}
+
+.search:hover,
+.search:focus {
+    outline: 0;
+}
+
+.submit {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+}
+/*
+Search CSS
+ */
+
+.error_warn {
+    margin-left: 5%;
+    color: red;
+    font-size: xx-large;
+    font-family: Spartan;
+}
+.error {
+    color: red;
+    font-size: xx-large;
+    font-family: Spartan;
+}
+img {
+    width: 20%;
+    position: fixed;
+    top: 10%;
+}
+img.king {
+    left: 2%;
+}
+img.king_dark {
+    right: 2%;
+}
+.chess_pieces {
+    position: fixed;
+}
+
+.content {
+    background-color: #333;
+    width: 50%;
+    padding: 0 0 10% 0;
+    margin: 5% auto 4% auto;
+}
+.text_input {
+    width: 79%;
+    height: 20%;
+    margin: 0 auto 3% 10%;
+}
+
+.input_select {
+    width: 50%;
+    text-align: center;
+    font-family: Spartan;
+    color: white;
+    font-size: x-large;
+    margin: 2% auto;
+}
+input.submit {
+    font-size: 3em;
+    font-family: Spartan;
+    border: aquamarine solid 10px;
+    background-color: mediumaquamarine;
+    width: 80%;
+    height: 5%;
+    margin: 3% 0 5% 10%;
+    padding: 1em 0;
+}
+p.survey_out {
+    margin: 3% auto;
+    text-align: center;
+    width: 50%;
+    color: white;
+    font-size: xx-large;
+    font-family: Spartan;
+}
+.results {
+    width: 90%;
+    color: white;
+    font-size: x-large;
+    margin-left: 5%;
+    font-family: Spartan;
+}
+#ID_result {
+    color: #86C232;
+    font-family: Spartan;
+}
+.content_result {
+    background-color: #333;
+    width: 80%;
+    padding: 10px;
+    margin: 5% auto 4% auto;
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+#query_input {
+    width: 75%;
+}
+#query_submit {
+    width: 19%;
+
+}
+.search {
+    margin: 30px auto 0 auto;
+    width: 90%;
+}
+a {
+    color: lightskyblue;
+}
