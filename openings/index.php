@@ -5,19 +5,15 @@
         <?php include '/var/www/oggyp.com/chess/resources/html/head.php'; ?>
     </head>
     <body>
-    <?php
-    include '/var/www/oggyp.com/chess/resources/html/navbar.php';
-    ?>
-
+    <?php include '/var/www/oggyp.com/chess/resources/html/navbar.php'; ?>
+	<?php include '/var/www/oggyp.com/chess/resources/html/sidenav.php'; ?>
 		<div class="page">
 			<br>
 			<h1>
-				L
+				Chess Openings
 			</h1>
 			<h2>
-				Welcome to Openings at OggypChess! Here, you can learn about all of the amazing openings that this website has to offer
-				<em>Linux is trash</em> - <b><span style="font-family:'Comic Sans MS'">OggyP</span></b>
-			</h2>
+				A chess opening is the first series of moves are played. A large amount of these series have names. You can search for the names of these chess openings: <a href="/openings/search">Search Chess Openings</a> You can search by ECO code, name or varients.
 		</div>
 	</body>
 </html>

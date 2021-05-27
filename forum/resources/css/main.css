@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
+
+.username {
+    color: #999999;
+}
+
+#message_panel {
+    text-align: left;
+    margin: 0 10%;
+	font-family: 'Spartan', sans-serif;
+}
+
+.scrollable {
+    width: 80%;
+    height: 60vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#message_input {
+    width: 50%;
+}
+
+.time_stamp {
+    font-size: x-small;
+    color: #999999;
+    text-align: justify;
+    float: right;
+}
+
+.my-5 {
+    font-size: xxx-large;
+    margin: 10px;
+}
+
+.social_input_fields {
+    margin-bottom: 30px;
+}
+
+.link_button {
+    margin: 50px;
+}

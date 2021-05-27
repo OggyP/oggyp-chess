@@ -20,15 +20,6 @@
 				OggypChess is the best place for practicing chess against computers, playing against your friends,
 				or discovering new chess openings to try out. Check out the awesome contents of our page by using the navigation bar at the top 
 			</h2>
-			<h2>
-			</h2>
-			<div class="wrapper1">
-			<!-- 
-			<button id="button" class="garbagebutton">Reveal what Oscar is</button>
-				</div>
-			-->
-			<h2 id="oscar"></h2>
-			<script src="/resources/js/garbagebutton.js" onclick="clickAction()"></script>
 		</div>
 	</body>
 </html>

@@ -5,9 +5,8 @@
         <title>OggyP Chess Search</title>
     </head>
     <body>
-        <?php
-        include '/var/www/oggyp.com/chess/resources/html/navbar.php';
-        ?>
+        <?php include '/var/www/oggyp.com/chess/resources/html/navbar.php'; ?>
+		<?php include '/var/www/oggyp.com/chess/resources/html/sidenav.php'; ?>
 
         <div class="content">
             <h1><?php

@@ -49,6 +49,11 @@ $(document).ready(function(){
     });
 });
 
+function ugly_button_hover() {
+    var audio = new Audio('/resources/media/help-my-ears.mp3');
+    audio.play();
+}
+
 $(document).ready(function(){
     $("#gy-button").click(function() {
 		document.cookie = "mode=ugly;path=/;SameSite=None; Secure";

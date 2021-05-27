@@ -9,7 +9,6 @@
   overflow-x: hidden;
   transition: 0.5s;
   box-shadow: 0 10px 10px;
-  opacity: 0.7;
 }
 .sidenav a {
   padding: 8px 8px 8px 32px;

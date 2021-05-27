@@ -5,7 +5,8 @@
         <?php include './resources/html/head.php'; ?>
     </head>
     <body>
-        <?php include './resources/html/navbar.php'; ?>
+        <?php include '/var/www/oggyp.com/chess/resources/html/navbar.php'; ?>
+		<?php include '/var/www/oggyp.com/chess/resources/html/sidenav.php'; ?>
 
         <div class="page">
             <h3>
@@ -24,7 +25,15 @@
             <h2>Thank You:</h2>
             <ul>
                 <li>
-                    <h2>PhpChess and its contributers. <a href="https://phpChess.com">phpchess.com</a></h2>
+                    <h2>PhpChess and its contributors. <a href="https://phpChess.com">phpchess.com</a></h2>
+                </li>
+                <br>
+                <li>
+                    <h2>Ragdoll485 for the lovely 'ugly mode' sound effect. <a href="https://soundbible.com/1791-Torture.html#">soundbible.com</a></h2>
+                </li>
+                <br>
+                <li>
+                    <h2>Thank you Kaelan particularly for helping with the date formatting on /forum. <a href="https://ifnulltrue.com">ifnulltrue.com</a></h2>
                 </li>
             </ul>
         </div>

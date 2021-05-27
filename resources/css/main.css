@@ -1,0 +1,29 @@
+.username {
+    color: #999999;
+}
+
+#message_panel {
+    text-align: left;
+    margin: 0 10%;
+}
+
+.scrollable {
+    background-color: #f5f4f4;
+    width: 80%;
+    height: 60vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#message_input {
+    width: 50%;
+}
+
+.time_stamp {
+    font-size: x-small;
+    color: #999999;
+    text-align: justify;
+    float: right;
+}

@@ -102,6 +102,14 @@ ul {
     text-align: center;
 }
 
+.scrollable {
+    background-color: <?php echo modechange($mode, '#f5f4f4', '#181a1c', 'red'); ?>;
+}
+
+.message {
+    color: <?php echo modechange($mode, 'black', 'white', 'purple'); ?>;
+}
+
 .garbagebutton {
     background-color: <?php echo modechange($mode, '#2eb02e', '#86C232', '#86C232'); ?>; /* Green */
     border: none;

@@ -83,7 +83,8 @@
 #search_input {
     <?php echo modechange($mode, '', 'background-color: #525252;', 'background-color: #525252;'); ?>
     <?php echo modechange($mode, '', 'color: #ffffff;', 'color: #ffffff;'); ?>
-    width: 100%;
+    font-family: 'Spartan', sans-serif;
+	width: 100%;
     border-radius: 3px;
     border: 1px solid gray;
 }

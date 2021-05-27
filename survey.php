@@ -5,9 +5,10 @@
         <?php include '/var/www/oggyp.com/chess/resources/html/head.php'; ?>
     </head>
     <body>
-        <?php
-            include '/var/www/oggyp.com/chess/resources/html/navbar.php';
-
+        <?php include '/var/www/oggyp.com/chess/resources/html/navbar.php'; ?>
+		<?php include '/var/www/oggyp.com/chess/resources/html/sidenav.php'; ?>
+		
+		<?php
             function test_input($data) {
                 $data = trim($data);
                 $data = stripslashes($data);
