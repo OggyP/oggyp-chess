@@ -1,5 +1,5 @@
-# oggyp-chess
-Code for OggyP Chess - https://chess.oggyp.com
+# OLD OggyP Chess Source Code
+OLD Code for OggyP Chess - https://chess.oggyp.com
 
 OggyP Chess Source Code
 
